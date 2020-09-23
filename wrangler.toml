@@ -1,12 +1,12 @@
-name = "api-dev"
+name = "github-stars"
 type = "webpack"
-account_id = "3ea01693f23309397d4b82c5e57b0e40"
+account_id = "a46f9a02578d51f3e8e135a14de082a0"
 workers_dev = true
 zone_id = ""
 webpack_config = "webpack.config.js"
 
 [env.staging]
-name = "my-worker-staging"
+name = "github-star-counter-staging"
 
 [env.production]
-name = "api"
+name = "github-star-counter"
